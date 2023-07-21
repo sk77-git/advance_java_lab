@@ -1,0 +1,43 @@
+LAB 1
+1.	Create a frame with size 400X400 using swing.
+2.	Demonstrate menu implementation frame using swing.
+3.	Draw line, rectangle, circle using graphics in swing.
+4.	Demonstrate color and shape with color filled inside using swing.
+5.	Write a program to list all the available font family.
+6.	Write a program to show implementation of flow layout.
+7.	Write a program to show implementation of border layout.
+8.	Write a program to show implementation of grid layout.
+9.	Write a program to use any five components in swing.
+10.	Write a program to show implementation event handling using FocusListener.
+11.	Write a program to show implementation of Adapter Class.
+12.	Write a program to read two numbers from text field and sum and display in dialog box when button pressed.
+LAB 2
+1.	Write a program to show database connectivity using JDBC.
+2.	Write a program to show all the records from employee table.
+3.	Write a program to show record insertion in employee table using PreparedStatement.
+4.	Write a program to create registration form using different JComponents. When the user clicks submit button, the entered data should store in database and on click of show button the data should be shown in JTable.
+5.	Write a program to implement RowSet.
+6.	Write a program to implement updatable and scrollable ResultSet.
+7.	Write a program to show number of columns, name of columns and total record from a specified table.
+LAB 3
+1.	Create a student javabeans with all possible properties and use it in another class.
+2.	Write a program to use propertyDescriptor in javabeans.
+3.	Write a program to use eventDescriptor in javabeans.
+4.	Write a program to use InfoBean in javabeans.
+5.	Write a program to implement client-server application using RMI.
+6.	Write a program using RMI and swing. Only use add, subtract, multiply and divide.
+LAB 4
+1.	Create a servlet/jsp that display one text box and one button in web browser and displays entered number’s factorial when button is clicked.
+2.	Create a HTML form to save company name, city and zip code in database.
+3.	Write a program to show session tracking using all the possible ways.
+•	Hidden form field
+•	URL Rewriting
+•	Cookies
+•	Session
+4.	Write a servlet program to perform operation using include(), forward() and sendRedirect() method.
+5.	Write a servlet program to read initialization parameters from web.xml
+6.	Write a JSP program to write “KCT”10 times.
+7.	Write a JSP program to perform HTML form data processing.
+8.	Write a JSP program to perform Exception Handling.
+9.	Write a JSP program to perform to read value from textbox and identifies whether it’s odd or even.
+10.	Create a contact manager application using servlet and JSP.

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://java.sun.com/xml/ns/javaee"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+                             http://java.sun.com/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+    <servlet>
+        <servlet-name>InitializationServlet</servlet-name>
+        <servlet-class>com.example.InitializationServlet</servlet-class>
+        <init-param>
+            <param-name>databaseUrl</param-name>
+            <param-value>jdbc:mysql://localhost:3306/mydb</param-value>
+        </init-param>
+        <init-param>
+            <param-name>username</param-name>
+            <param-value>admin</param-value>
+        </init-param>
+        <init-param>
+            <param-name>password</param-name>
+            <param-value>password123</param-value>
+        </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>InitializationServlet</servlet-name>
+        <url-pattern>/init</url-pattern>
+    </servlet-mapping>
+</web-app>

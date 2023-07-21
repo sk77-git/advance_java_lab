@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Session Tracking Example</title>
+</head>
+<body>
+<h2>Session Tracking Example</h2>
+<form action="hiddenFieldServlet" method="post">
+    <label for="name">Name:</label>
+    <input id="name" name="name" required type="text"><br><br>
+    <input type="submit" value="Submit">
+</form>
+<br>
+<a href="urlRewritingServlet?name=John">URL Rewriting</a>
+<br><br>
+<form action="cookieServlet" method="post">
+    <label for="name">Name:</label>
+    <input id="name" name="name" required type="text"><br><br>
+    <input type="submit" value="Submit">
+</form>
+<br>
+<form action="sessionServlet" method="post">
+    <label for="name">Name:</label>
+    <input id="name" name="name" required type="text"><br><br>
+    <input type="submit" value="Submit">
+</form>
+</body>
+</html>
